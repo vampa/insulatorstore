@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Insulator Store</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div id="nav">
+    <div class="center-wrap">
+        <a href="<%= root_path %>">Home</a>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<div class="center-wrap">
+    <%= yield %>
+</div>
+
+</body>
+</html>

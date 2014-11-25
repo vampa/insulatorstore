@@ -1,0 +1,51 @@
+// LAYOUT RESET STYLES
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, a, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video
+    padding: 0
+    margin: 0
+    border: 0
+    outline: 0
+    vertical-align: baseline
+    list-style: none outside none
+
+*, *:before, *:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+// PAGE ELEMENTS & COMMON CLASSES
+
+html, body
+    width: 100%
+    min-height: 100%
+    .center-wrap
+        margin: 0 auto
+        max-width: 600px
+        min-height: 100%
+        width: 100%
+    .clearfix
+        clear: both
+
+// NAV
+
+#nav
+    background: #141414
+    width: 100%
+    a
+        color: white
+        font-family: Arial
+        font-size: 9pt
+        float: left
+        padding: 15px
+        text-decoration: none
+        &:hover
+            background: #242424
+
+// HOME
+
+#logo
+    +transform(translateX(-50%))
+    left: 50%
+    position: absolute
+    top: 100px
+    

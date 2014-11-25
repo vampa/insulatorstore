@@ -1,0 +1,21 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: insulatorstore_dev
+  pool:     5
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: insulatorstore_prod
+  pool:     5
+
+production:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: insulatorstore_prod
+  pool:     5
+  username: insulators

@@ -10,6 +10,8 @@ gem 'pry'
 gem 'newrelic_rpm'
 
 gem 'devise'
+gem 'rails_admin'
+gem 'piggybak'
 
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'

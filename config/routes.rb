@@ -1,7 +1,14 @@
 Rails.application.routes.draw do
 
+  # USERS
+  devise_for :admins
+  devise_for :users	
+
+  # ADMIN
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
-  devise_for :users
+
+  # STORE
   root "application#home"
+  resources :products 
 
 end

@@ -2,3 +2,6 @@
 
 <p>Welcome to The Insulator Store. We are currently configuring a redesign to please hold tight and visit us at our active store: <a href="http://www.insulatorstore.com" target="_blank">www.insulatorstore.com</a></p>
 
+<% @products.each do |prod| %>
+	<%= prod.name %>
+<% end %>
